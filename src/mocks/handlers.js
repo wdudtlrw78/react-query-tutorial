@@ -62,6 +62,7 @@ export const handlers = [
                     },
                 ],
                 hasMore: pageIndex < 4,
+                nextCursor: parseInt(pageIndex, 10) + 1,
             })
         )
     }),
